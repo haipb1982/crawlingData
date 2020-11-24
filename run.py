@@ -3,7 +3,7 @@ import requests
 import time
 
 # ------------ configs ------------ #
-craw_steps = 2
+craw_steps = 99 # get 60 items per step
 status = 200
 request_delay = 0.25
 
@@ -109,7 +109,7 @@ def processCrawling(appId, filesave):
                 break
 
             k+=1
-            
+
         # end while k < len(temp)
 
     # end with open('fullName.json')
