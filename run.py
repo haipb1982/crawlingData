@@ -2,16 +2,25 @@ import json
 import requests
 import time
 
-# configs
-# appId = '730'
-# filesave='output-730.json'
-
-# appId='570'
-# filesave='output-570.json'
-
+# ------------ configs ------------ #
 craw_steps = 199
 status = 200
 request_delay = 0.25
+
+# ------------ suport functions ------------ #
+
+def findFullName(_nameId,_filesave):
+    fullName = ''
+    with open(_filesave) as json_file:
+        data = json.load(json_file)
+
+        for p in data:
+            if _nameId == p['nameId']:
+                fullName = p['fullName']
+                print(fullName)
+
+    return fullName
+# end findFullName
 
 def processCrawling(appId, filesave):
     print("Start Crawling!!!")
@@ -64,33 +73,39 @@ def processCrawling(appId, filesave):
         except:
             pass
 
-        # time.sleep(request_delay)
         x += 1
     # end while x < 2 or status !=200:
 
-    # update fullName ... from details
+    # update fullName 
     print("Start Updating {} items!!!".format(len(temp)))
-    url_update = 'https://cs.money/skin_info?appId={}&id={}&isBot=true&botInventory=true'
-
+   
     k=0
     while k < len(temp):
         try:
-            response = requests.get(url_update.format(appId,str(temp[k]['id'])))
-            data  = json.dumps(response.json())
-            status = response.status_code
-            print('updating status {} id {} nameId {}'.format(status, temp[k]['id'],temp[k]['nameId']))
-            
-            details = json.loads(data)
-            if 'fullName' in details:
-                temp[k]['fullName']=details['fullName']
-            elif 'name' in details:
-                temp[k]['fullName']=details['name']
+            print('updating nameId {}'.format( temp[k]['nameId']))
+
+            # get full name in filesave
+            fname = findFullName(temp[k]['nameId'],filesave)
+
+            # get full name by crawling
+            if fname =='':
+                url_update = 'https://cs.money/skin_info?appId={}&id={}&isBot=true&botInventory=true'
+                response = requests.get(url_update.format(appId,str(temp[k]['id'])))
+                data  = json.dumps(response.json())
+                status = response.status_code            
+                
+                details = json.loads(data)
+                if 'fullName' in details:
+                    temp[k]['fullName']=details['fullName']
+                elif 'name' in details:
+                    temp[k]['fullName']=details['name']
+                else:
+                    temp[k]['fullName']=details['id']
             else:
-                temp[k]['fullName']=details['id']
+                temp[k]['fullName']= fname
         except:
             pass
 
-        # time.sleep(request_delay)
         k+=1
     # end while k < len(temp)
 
@@ -100,14 +115,14 @@ def processCrawling(appId, filesave):
 
 # end processCrawling
 
+# ------------ main function ------------ #
+
 def main():
 
-    processCrawling('730','output-730.json')
-    processCrawling('570','output-570.json')
+    processCrawling('730','output-cs.json')
+    processCrawling('570','output-dota.json')
 
 # end main
-
-
 
 if __name__ == "__main__":
     main()
