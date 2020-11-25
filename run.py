@@ -98,7 +98,7 @@ def processCrawling(appId, filesave):
                     # add missing fullName
                     n = {}
                     n['nameId'] = temp[k]['nameId']
-                    n['fullName'] = temp[k]['fullName.json']
+                    n['fullName'] = temp[k]['fullName']
 
                     data_fname.append(n)
 

@@ -35574,5 +35574,245 @@
     {
         "nameId": 7966,
         "fullName": "Bladebreaker Hood"
+    },
+    {
+        "nameId": 12606,
+        "fullName": "M4A4 | Howl (Factory New)"
+    },
+    {
+        "nameId": 4771,
+        "fullName": "M4A1-S | Icarus Fell (Factory New)"
+    },
+    {
+        "nameId": 12132,
+        "fullName": "USP-S | Neo-Noir (Factory New)"
+    },
+    {
+        "nameId": 1077377,
+        "fullName": "\u2605 Skeleton Knife | Case Hardened (Factory New)"
+    },
+    {
+        "nameId": 26921,
+        "fullName": "\u2605 StatTrak\u2122 Karambit | Black Laminate (Factory New)"
+    },
+    {
+        "nameId": 18854,
+        "fullName": "\u2605 Butterfly Knife | Doppler Phase 2 (Minimal Wear)"
+    },
+    {
+        "nameId": 20538,
+        "fullName": "\u2605 StatTrak\u2122 Butterfly Knife | Doppler Phase 3 (Factory New)"
+    },
+    {
+        "nameId": 16738,
+        "fullName": "\u2605 Butterfly Knife | Doppler Phase 3 (Minimal Wear)"
+    },
+    {
+        "nameId": 1074709,
+        "fullName": "\u2605 Skeleton Knife | Blue Steel (Battle-Scarred)"
+    },
+    {
+        "nameId": 1075844,
+        "fullName": "\u2605 StatTrak\u2122 Skeleton Knife | Stained (Well-Worn)"
+    },
+    {
+        "nameId": 19680,
+        "fullName": "\u2605 StatTrak\u2122 Bowie Knife | Doppler Phase 4 (Factory New)"
+    },
+    {
+        "nameId": 1075463,
+        "fullName": "\u2605 StatTrak\u2122 Skeleton Knife | Urban Masked (Field-Tested)"
+    },
+    {
+        "nameId": 24339,
+        "fullName": "\u2605 StatTrak\u2122 Karambit | Damascus Steel (Battle-Scarred)"
+    },
+    {
+        "nameId": 10173,
+        "fullName": "ESL One Cologne 2015 Cobblestone Souvenir Package"
+    },
+    {
+        "nameId": 22219,
+        "fullName": "\u2605 StatTrak\u2122 Butterfly Knife | Ultraviolet (Well-Worn)"
+    },
+    {
+        "nameId": 20121,
+        "fullName": "\u2605 StatTrak\u2122 Karambit | Freehand (Well-Worn)"
+    },
+    {
+        "nameId": 13447,
+        "fullName": "StatTrak\u2122 USP-S | Dark Water (Minimal Wear)"
+    },
+    {
+        "nameId": 1077860,
+        "fullName": "\u2605 StatTrak\u2122 Skeleton Knife | Urban Masked (Battle-Scarred)"
+    },
+    {
+        "nameId": 16214,
+        "fullName": "StatTrak\u2122 AWP | BOOM (Factory New)"
+    },
+    {
+        "nameId": 21090,
+        "fullName": "Genuine Guard of the Red Mist"
+    },
+    {
+        "nameId": 23280,
+        "fullName": "Inscribed Mace of Aeons"
+    },
+    {
+        "nameId": 17552,
+        "fullName": "Genuine Golden Gravelmaw"
+    },
+    {
+        "nameId": 1082810,
+        "fullName": "Shadow in the Deep Armor"
+    },
+    {
+        "nameId": 17542,
+        "fullName": "Torch of Fantoccini's Dilemma"
+    },
+    {
+        "nameId": 10695,
+        "fullName": "Belt of the Bladeform Aesthete"
+    },
+    {
+        "nameId": 14815,
+        "fullName": "Vigil Triumph"
+    },
+    {
+        "nameId": 16860,
+        "fullName": "Hat of Fantoccini's Dilemma"
+    },
+    {
+        "nameId": 27112,
+        "fullName": "Unusual Shagbark"
+    },
+    {
+        "nameId": 38226,
+        "fullName": "Inscribed Suit of the Darkbrew Enforcer"
+    },
+    {
+        "nameId": 173377,
+        "fullName": "Exalted The Magus Cypher Bundle"
+    },
+    {
+        "nameId": 15308,
+        "fullName": "Darkfall Warden"
+    },
+    {
+        "nameId": 168820,
+        "fullName": "Inscribed Sylvan Vedette"
+    },
+    {
+        "nameId": 15215,
+        "fullName": "Unusual Stumpy - Nature's Attendant"
+    },
+    {
+        "nameId": 29362,
+        "fullName": "Pauldrons of the Battlefield"
+    },
+    {
+        "nameId": 38319,
+        "fullName": "Twisted Maelstrom"
+    },
+    {
+        "nameId": 15192,
+        "fullName": "Molotov Cocktail of the Darkbrew Enforcer"
+    },
+    {
+        "nameId": 15422,
+        "fullName": "Unusual Virtus Werebear"
+    },
+    {
+        "nameId": 29007,
+        "fullName": "Inscribed Demon Form of the Foulfell Corruptor"
+    },
+    {
+        "nameId": 25226,
+        "fullName": "Genuine Grand Gloves of the Witch Hunter Templar"
+    },
+    {
+        "nameId": 13312,
+        "fullName": "Insatiable Bonesaw"
+    },
+    {
+        "nameId": 21403,
+        "fullName": "Genuine Thirst of Eztzhok Bundle"
+    },
+    {
+        "nameId": 21125,
+        "fullName": "Occultist's Pursuit"
+    },
+    {
+        "nameId": 1082804,
+        "fullName": "Origin of the Unmaking"
+    },
+    {
+        "nameId": 1082802,
+        "fullName": "Remnants of Ascension"
+    },
+    {
+        "nameId": 549942,
+        "fullName": "Head of the Impossible Realm"
+    },
+    {
+        "nameId": 24330,
+        "fullName": "Legacy of the Eldwurm Crest"
+    },
+    {
+        "nameId": 15131,
+        "fullName": "Inscribed Thirst of Eztzhok Bundle"
+    },
+    {
+        "nameId": 14076,
+        "fullName": "The Andestian Sentinel"
+    },
+    {
+        "nameId": 32604,
+        "fullName": "Divine Flame"
+    },
+    {
+        "nameId": 20681,
+        "fullName": "Prismatic: Reflection's Shade"
+    },
+    {
+        "nameId": 22081,
+        "fullName": "Inscribed Bracers of the Survivor"
+    },
+    {
+        "nameId": 15278,
+        "fullName": "Midnight Terror"
+    },
+    {
+        "nameId": 16806,
+        "fullName": "Genuine Lamb to the Slaughter"
+    },
+    {
+        "nameId": 29575,
+        "fullName": "Inscribed Burning Shield of the Outland Ravager"
+    },
+    {
+        "nameId": 22130,
+        "fullName": "Inscribed Dark Artistry Belt"
+    },
+    {
+        "nameId": 32208,
+        "fullName": "Blessing of the Crested Dawn"
+    },
+    {
+        "nameId": 15257,
+        "fullName": "Darkclaw Emissary Cowl"
+    },
+    {
+        "nameId": 14930,
+        "fullName": "Spelunker's Fedora"
+    },
+    {
+        "nameId": 14934,
+        "fullName": "Infused Armor of the Fearful Aria"
+    },
+    {
+        "nameId": 16856,
+        "fullName": "Scythe of Vyse"
     }
 ]
