@@ -23,6 +23,7 @@ def processCrawling(appId, filesave):
         try:
             url ='https://inventories.cs.money/4.0/load_bots_inventory/{}?hasTradeLock=false&limit=60&offset={}'
             response = requests.get(url.format(appId,str(x*60)))
+            time.sleep(request_delay)
             data  = json.dumps(response.json())
             status = response.status_code
             print('crawling status {} step {}'.format(status, x))
@@ -84,6 +85,7 @@ def processCrawling(appId, filesave):
                 if fname =='':
                     url_update = 'https://cs.money/skin_info?appId={}&id={}&isBot=true&botInventory=true'
                     response = requests.get(url_update.format(appId,str(temp[k]['id'])))
+                    time.sleep(request_delay)
                     data  = json.dumps(response.json())
                     status = response.status_code            
                                     
@@ -106,7 +108,7 @@ def processCrawling(appId, filesave):
                     temp[k]['fullName']= fname
                     
             except:      
-                break
+                pass
 
             k+=1
 
